@@ -32,7 +32,7 @@ Exemple simple
 <script>marmotabs(document.getElementById("tabs"));</script>
 ```
 
-![Exemple](https://raw.githubusercontent.com/marmottes/marmotabs/master/example.jpg "example")
+![Exemple](https://raw.githubusercontent.com/marmottes/marmotabs/master/example.png "example")
 
 License
 ----
