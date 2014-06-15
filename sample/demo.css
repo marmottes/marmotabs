@@ -1,0 +1,71 @@
+body {
+
+	padding-top: 10px;
+
+}
+
+#tabs {
+
+	display: block;
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+
+}
+
+#tabs div[role="tabs"] {
+
+	height: 34px;
+
+}
+
+#tabs div[role="tabs"] button {
+
+	float: left;
+
+	display: inline-block;
+	height: 100%;
+	margin: 0 10px 0 0;
+	padding: 0 20px;
+
+	font-family: sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+	background: transparent;
+	color: #777;
+	border: none;
+	text-transform: uppercase;
+
+	-webkit-transition: background .15s, color .15s;
+	   -moz-transition: background .15s, color .15s;
+			transition: background .15s, color .15s;
+
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+			border-radius: 5px;
+
+}
+
+#tabs div[role="tabs"] button.current,
+#tabs div[role="tabs"] button:hover {
+
+	background: #00d9a9;
+	color: white;
+
+}
+
+#tabs div[role="tabs"] button:focus { outline: none; }
+
+#tabs div[role="contents"] {
+
+	margin-top: 8px;
+
+}
+
+#tabs div[role="contents"] div {
+
+	font-size: 19px;
+	color: #777;
+	line-height: 1.3;
+
+}
