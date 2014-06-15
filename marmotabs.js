@@ -123,7 +123,7 @@ marmotabs.class = function(element) {
 
         var tab = this.tabs[i];
 
-        var eventr = new marmotabs.onClickEvent(tab, function(that, id) {
+        var _event = new marmotabs.onClickEvent(tab, function(that, id) {
 
             return function() {
 

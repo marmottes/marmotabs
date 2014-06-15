@@ -30,6 +30,9 @@ Exemple simple
 </div>
 
 <script>marmotabs(document.getElementById("tabs"));</script>
+
+![Exemple](https://raw.githubusercontent.com/marmottes/marmotabs/master/example.jpg "example")
+
 ```
 
 License
